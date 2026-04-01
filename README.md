@@ -98,6 +98,12 @@ They are particularly effective for:
 > Structures dominated by global, beam-like deformation
 
 ---
+## 📊 Reference
+[1] Shi, Y., Wei, Y. (2025). Application of the Reduced-Order-Discrete-Module Hydroelastic Analysis for Offshore Floating Photovoltaic Systems. Ocean Engineering, 339, 121968. 
+[2] Shi, Y., Wei, Y., Chen, Z. (2025). Analysis of hydroelastic response and failure mechanisms of floating offshore photovoltaic under wind and wave. Ocean Engineering, 328, 121028.
+[3] Shi, Y., Wei, Y., Tay, Z. Y., et al. (2025). Frequency-domain approach of hydroelastic response for flexible offshore floating photovoltaic under combined wind and wave loads. Ocean Engineering, 323, 120565.
+[4] Shi, Y., Wei, Y., Chen, Z. (2024). Development of Reduced-Order-Discrete-Module method for hydroelastic analysis of floating flexible structures. Journal of Fluids and Structures, 130, 104188.
+[5] Shi, Y., Wei, Y., Tay, Z. Y., et al. (2023). Hydroelastic analysis of offshore floating photovoltaic based on frequency-domain model. Ocean Engineering, 289, 116213.
 
 ## 🚀 Usage
 
@@ -106,9 +112,4 @@ Open the notebook:
 ```bash
 DMB_hydroelastic_demo.ipynb
 
-## 📊 Reference
-**[1] Shi, Y**., Wei, Y. (2025). Application of the Reduced-Order-Discrete-Module Hydroelastic Analysis for Offshore Floating Photovoltaic Systems. Ocean Engineering, 339, 121968. 
-**[2] Shi, Y.**, Wei, Y., Chen, Z. (2025). Analysis of hydroelastic response and failure mechanisms of floating offshore photovoltaic under wind and wave. Ocean Engineering, 328, 121028.
-**[3] Shi, Y.**, Wei, Y., Tay, Z. Y., et al. (2025). Frequency-domain approach of hydroelastic response for flexible offshore floating photovoltaic under combined wind and wave loads. Ocean Engineering, 323, 120565.
-**[4] Shi, Y.**, Wei, Y., Chen, Z. (2024). Development of Reduced-Order-Discrete-Module method for hydroelastic analysis of floating flexible structures. Journal of Fluids and Structures, 130, 104188.
-**[5] Shi, Y.**, Wei, Y., Tay, Z. Y., et al. (2023). Hydroelastic analysis of offshore floating photovoltaic based on frequency-domain model. Ocean Engineering, 289, 116213.
+
