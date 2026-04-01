@@ -21,6 +21,11 @@ The example is implemented in a single Jupyter Notebook for clarity and teaching
 ---
 
 ## 🧠 Methodological Framework
+The present example is based on the Discrete-Module-Beam (DMB) hydroelasticity method, which has recently been recognised as an efficient numerical approach for continuous very large floating structures (VLFSs). In this method, the floating structure is discretised into a number of rigid or quasi-rigid modules, and the structural continuity between neighbouring modules is represented by equivalent beam connections. Hydrodynamic loads, including radiation and diffraction effects, are computed at the module level, while the overall elastic behaviour of the continuous structure is recovered through the stiffness coupling introduced by the beam elements.
+
+Recent review literature has pointed out that the DMB method provides an attractive compromise between classical direct methods and modal-based formulations. Its main advantage lies in its relatively low modelling cost and good computational efficiency for global hydroelastic response analysis, particularly for long floating structures whose dominant deformation can be approximated by beam-like behaviour. In this sense, the DMB framework is especially useful for rapid hydroelastic evaluation, parametric studies, and teaching demonstrations based on open-source hydrodynamic tools.
+
+However, the method also has clear limitations. Since the structural flexibility is represented through module-to-module beam connections, the method is primarily suited to global deformation analysis rather than detailed three-dimensional local structural assessment. For problems involving strong local plate deformation, shell effects, or complex three-dimensional stress concentrations, more refined structural models are still required. Therefore, the DMB method should be understood as an efficient and physically interpretable tool for global hydroelastic analysis, rather than a universal replacement for high-fidelity three-dimensional numerical models.
 
 ### 1. Discrete-Module-Beam (DMB) Method
 
